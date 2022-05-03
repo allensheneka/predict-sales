@@ -17,14 +17,14 @@ Author: Sheneka Allen
 # Methods:
 
 1.   Explore the data to identify missing values and identify correlations (create a heatmap).
-2.   Find ad fix any category inconsistencies.
+2.   Find and fix any category inconsistencies.
 3.   Determine category types for column values (nominal, ordinal) and discern best approach for imputation (i.e., small=0, medium=1, large=2).
-4.   Determine value you want to predict or target (y) then define target and features (X) vectors.
-5.   Perform a random train-test-split.
+4.   Determine value you want to predict or target (y) then define target and features (X) vectors.  In this case, I chose 'Item Outlet Sales' since the focus is on predicting sales based on other features (X) in the dataset.
+5.   Perform a random train-test-split (default split of 75/25 is fine).
 6.   Create a pre-processing pipeline to transform and normalize ALL dataset values for machine learning.
-7.   Fit pre-processor on the TRAINING data (to avoid data leakage to test data).
+7.   Fit pre-processor on the TRAINING data (to avoid leaking data to test set).
 8.   Confirm dataset is effectively cleaned (i.e., no missing values, data is properly scaled and processed).
-9.   Explore at least two regression models to evaluate best impact on model performance.  Compare metrics R2 and RMSE to justify recommendation.
+9.   Explore at least two regression models to evaluate best which has the most favorable impact on model performance.  Compare metrics R2 and RMSE to justify recommendation.
 10.   Create at least two visualizations for this dataset to support analysis.
 
 ---
