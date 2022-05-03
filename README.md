@@ -55,7 +55,9 @@ It appears that the Top Three item types with the highest averages in sales are:
 
 
 Recommendations:
->After reducing the max_depth() parameter from None to 10, the Random Forest Regressor model performance appears to be the best in this case. Variance is significantly reduced and the bias is higher, which improves the prediction performance on unknown/test data.
+>After reducing the max_depth() parameter from None to 10 and comparing metrics (R2, RMSE), the Random Forest Regressor model performance appears to be the best in this case. Variance is significantly reduced and the bias is higher, which improves the prediction performance on unknown/test data.
+
+>Overall, which model do YOU recommend?  Why?
 
 For further information
 For any additional questions, please contact: https://www.linkedin.com/in/shenekaallen/
