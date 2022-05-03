@@ -18,14 +18,14 @@ Methods:
 
 
 1.   Explore the data to identify missing values.
-2.   Find and Fix any category inconsistencies (i.e., dollar sign or other string character for numerical datatype, misspelling)
-3.   Determine category types for column values (nominal, ordinal) and discern best approach for imputation (i.e., small=0, medium=1, large=2)
+2.   Find and Fix any category inconsistencies (i.e., dollar sign or other string character for numerical datatype, misspelling).
+3.   Determine category types for column values (nominal, ordinal) and discern best approach for imputation (i.e., small=0, medium=1, large=2).
 4.   Determine value you want to predict or target (y) then define target and features (X) vectors.
-5.   Perform a random train-test-split
+5.   Perform a random train-test-split.
 6.   Create a pre-processing pipeline to transform and normalize ALL dataset values for machine learning.
-7.   Fit pre-processor on the TRAINING data (to avoid data leakage to test data)
-8.   Confirm dataset is effectively cleaned (i.e., no missing values, data is properly scaled and processed)
-9.   Explore at least two regression models to evaluate best impact on model performance
+7.   Fit pre-processor on the TRAINING data (to avoid data leakage to test data).
+8.   Confirm dataset is effectively cleaned (i.e., no missing values, data is properly scaled and processed).
+9.   Explore at least two regression models to evaluate best impact on model performance.  Compare metrics R2 and RMSE to justify recommendation.
 
 ---
 
