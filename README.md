@@ -16,9 +16,8 @@ Data:
 
 Methods:
 
-
-1.   Explore the data to identify missing values.
-2.   Find and Fix any category inconsistencies (i.e., dollar sign or other string character for numerical datatype, misspelling).
+1.   Explore the data to identify missing values and identify correlations (create a heatmap).
+2.   Find ad fix any category inconsistencies.
 3.   Determine category types for column values (nominal, ordinal) and discern best approach for imputation (i.e., small=0, medium=1, large=2).
 4.   Determine value you want to predict or target (y) then define target and features (X) vectors.
 5.   Perform a random train-test-split.
@@ -26,13 +25,14 @@ Methods:
 7.   Fit pre-processor on the TRAINING data (to avoid data leakage to test data).
 8.   Confirm dataset is effectively cleaned (i.e., no missing values, data is properly scaled and processed).
 9.   Explore at least two regression models to evaluate best impact on model performance.  Compare metrics R2 and RMSE to justify recommendation.
+10.   Create at least two visualizations for this dataset to support analysis.
 
 ---
 
 
 
 
-Results: 
+Insights and Results: 
 
 ![salesbystore1](https://user-images.githubusercontent.com/100389581/166484069-0e10e156-b46e-44b6-816f-d83c2c2f9af4.png)
 
@@ -53,11 +53,12 @@ It appears that the Top Three item types with the highest averages in sales are:
 
 >Possible tie between Fruits and Vegetables, Snack Foods
 
-
+---
 Recommendations:
 >After reducing the max_depth() parameter from None to 10 and comparing metrics (R2, RMSE), the Random Forest Regressor model performance appears to be the best in this case. Variance is significantly reduced and the bias is higher, which improves the prediction performance on unknown/test data.
 
 >Overall, which model do YOU recommend?  Why?
 
-For further information
+
+For further information:
 For any additional questions, please contact: https://www.linkedin.com/in/shenekaallen/
